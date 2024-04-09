@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='risk_data' inline='true' name='federated.1t4ad761439jp41g8srtu1nsu5ag' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='risk_data' name='textscan.1e9iht80xjqycf11trceo1t7ljio'>
+            <connection class='textscan' directory='C:/Users/eykin/Desktop/Eddie Documentsls/projects/Chronic_disease_capstone/data' filename='risk_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1e9iht80xjqycf11trceo1t7ljio' name='risk_data.csv' table='[risk_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='index' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='StateAbbr' ordinal='3' />
+            <column datatype='string' name='StateDesc' ordinal='4' />
+            <column datatype='string' name='LocationName' ordinal='5' />
+            <column datatype='string' name='DataSource' ordinal='6' />
+            <column datatype='string' name='Category' ordinal='7' />
+            <column datatype='string' name='Measure' ordinal='8' />
+            <column datatype='string' name='Data_Value_Unit' ordinal='9' />
+            <column datatype='string' name='Data_Value_Type' ordinal='10' />
+            <column datatype='real' name='Data_Value' ordinal='11' />
+            <column datatype='string' name='Data_Value_Footnote_Symbol' ordinal='12' />
+            <column datatype='string' name='Data_Value_Footnote' ordinal='13' />
+            <column datatype='real' name='Low_Confidence_Limit' ordinal='14' />
+            <column datatype='real' name='High_Confidence_Limit' ordinal='15' />
+            <column datatype='integer' name='TotalPopulation' ordinal='16' />
+            <column datatype='integer' name='LocationID' ordinal='17' />
+            <column datatype='string' name='CategoryID' ordinal='18' />
+            <column datatype='string' name='MeasureId' ordinal='19' />
+            <column datatype='string' name='DataValueTypeID' ordinal='20' />
+            <column datatype='string' name='Short_Question_Text' ordinal='21' />
+            <column datatype='string' name='Geolocation' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1e9iht80xjqycf11trceo1t7ljio' name='risk_data.csv' table='[risk_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='index' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='StateAbbr' ordinal='3' />
+            <column datatype='string' name='StateDesc' ordinal='4' />
+            <column datatype='string' name='LocationName' ordinal='5' />
+            <column datatype='string' name='DataSource' ordinal='6' />
+            <column datatype='string' name='Category' ordinal='7' />
+            <column datatype='string' name='Measure' ordinal='8' />
+            <column datatype='string' name='Data_Value_Unit' ordinal='9' />
+            <column datatype='string' name='Data_Value_Type' ordinal='10' />
+            <column datatype='real' name='Data_Value' ordinal='11' />
+            <column datatype='string' name='Data_Value_Footnote_Symbol' ordinal='12' />
+            <column datatype='string' name='Data_Value_Footnote' ordinal='13' />
+            <column datatype='real' name='Low_Confidence_Limit' ordinal='14' />
+            <column datatype='real' name='High_Confidence_Limit' ordinal='15' />
+            <column datatype='integer' name='TotalPopulation' ordinal='16' />
+            <column datatype='integer' name='LocationID' ordinal='17' />
+            <column datatype='string' name='CategoryID' ordinal='18' />
+            <column datatype='string' name='MeasureId' ordinal='19' />
+            <column datatype='string' name='DataValueTypeID' ordinal='20' />
+            <column datatype='string' name='Short_Question_Text' ordinal='21' />
+            <column datatype='string' name='Geolocation' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[index]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>index</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StateAbbr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StateAbbr]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>StateAbbr</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StateDesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StateDesc]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>StateDesc</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LocationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LocationName]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>LocationName</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DataSource</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DataSource]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>DataSource</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Measure]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Measure</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Value_Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data_Value_Unit]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Data_Value_Unit</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Value_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data_Value_Type]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Data_Value_Type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Data_Value]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Data_Value</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Value_Footnote_Symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data_Value_Footnote_Symbol]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Data_Value_Footnote_Symbol</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Value_Footnote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data_Value_Footnote]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Data_Value_Footnote</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low_Confidence_Limit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low_Confidence_Limit]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Low_Confidence_Limit</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High_Confidence_Limit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High_Confidence_Limit]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>High_Confidence_Limit</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalPopulation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalPopulation]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>TotalPopulation</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LocationID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LocationID]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>LocationID</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CategoryID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CategoryID]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>CategoryID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MeasureId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MeasureId]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>MeasureId</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DataValueTypeID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DataValueTypeID]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>DataValueTypeID</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short_Question_Text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Short_Question_Text]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Short_Question_Text</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geolocation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geolocation]</local-name>
+            <parent-name>[risk_data.csv]</parent-name>
+            <remote-alias>Geolocation</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Category ID' datatype='string' name='[CategoryID]' role='dimension' type='nominal' />
+      <column caption='Data Source' datatype='string' name='[DataSource]' role='dimension' type='nominal' />
+      <column caption='Data Value Type ID' datatype='string' name='[DataValueTypeID]' role='dimension' type='nominal' />
+      <column caption='Data Value' datatype='real' name='[Data_Value]' role='measure' type='quantitative' />
+      <column caption='Data Value Footnote' datatype='string' name='[Data_Value_Footnote]' role='dimension' type='nominal' />
+      <column caption='Data Value Footnote Symbol' datatype='string' name='[Data_Value_Footnote_Symbol]' role='dimension' type='nominal' />
+      <column caption='Data Value Type' datatype='string' name='[Data_Value_Type]' role='dimension' type='nominal' />
+      <column caption='Data Value Unit' datatype='string' name='[Data_Value_Unit]' role='dimension' type='nominal' />
+      <column caption='High Confidence Limit' datatype='real' name='[High_Confidence_Limit]' role='measure' type='quantitative' />
+      <column caption='Location ID' datatype='integer' name='[LocationID]' role='dimension' type='ordinal' />
+      <column caption='Location Name' datatype='string' name='[LocationName]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Low Confidence Limit' datatype='real' name='[Low_Confidence_Limit]' role='measure' type='quantitative' />
+      <column caption='Measure Id' datatype='string' name='[MeasureId]' role='dimension' type='nominal' />
+      <column caption='Short Question Text' datatype='string' name='[Short_Question_Text]' role='dimension' type='nominal' />
+      <column caption='State Abbr' datatype='string' name='[StateAbbr]' role='dimension' type='nominal' />
+      <column caption='State Desc' datatype='string' name='[StateDesc]' role='dimension' type='nominal' />
+      <column caption='Total Population' datatype='integer' name='[TotalPopulation]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='risk_data.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6]' role='measure' type='quantitative' />
+      <column caption='Index' datatype='integer' name='[index]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='risk_data.csv' id='risk_data.csv_C7A9536FBA304F5DAB2ED4D1C62063B6'>
+            <properties context=''>
+              <relation connection='textscan.1e9iht80xjqycf11trceo1t7ljio' name='risk_data.csv' table='[risk_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='index' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='string' name='StateAbbr' ordinal='3' />
+                  <column datatype='string' name='StateDesc' ordinal='4' />
+                  <column datatype='string' name='LocationName' ordinal='5' />
+                  <column datatype='string' name='DataSource' ordinal='6' />
+                  <column datatype='string' name='Category' ordinal='7' />
+                  <column datatype='string' name='Measure' ordinal='8' />
+                  <column datatype='string' name='Data_Value_Unit' ordinal='9' />
+                  <column datatype='string' name='Data_Value_Type' ordinal='10' />
+                  <column datatype='real' name='Data_Value' ordinal='11' />
+                  <column datatype='string' name='Data_Value_Footnote_Symbol' ordinal='12' />
+                  <column datatype='string' name='Data_Value_Footnote' ordinal='13' />
+                  <column datatype='real' name='Low_Confidence_Limit' ordinal='14' />
+                  <column datatype='real' name='High_Confidence_Limit' ordinal='15' />
+                  <column datatype='integer' name='TotalPopulation' ordinal='16' />
+                  <column datatype='integer' name='LocationID' ordinal='17' />
+                  <column datatype='string' name='CategoryID' ordinal='18' />
+                  <column datatype='string' name='MeasureId' ordinal='19' />
+                  <column datatype='string' name='DataValueTypeID' ordinal='20' />
+                  <column datatype='string' name='Short_Question_Text' ordinal='21' />
+                  <column datatype='string' name='Geolocation' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Incidence</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_data' name='federated.1t4ad761439jp41g8srtu1nsu5ag' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1t4ad761439jp41g8srtu1nsu5ag'>
+            <column caption='Location Name' datatype='string' name='[LocationName]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[LocationName]' derivation='None' name='[none:LocationName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t4ad761439jp41g8srtu1nsu5ag].[Longitude (generated)]' field-type='quantitative' max='-4952520.23163376' min='-15345088.329292268' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1t4ad761439jp41g8srtu1nsu5ag].[Latitude (generated)]' field-type='quantitative' max='6945527.9678189084' min='1230226.1633128119' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <lod column='[federated.1t4ad761439jp41g8srtu1nsu5ag].[none:LocationName:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='density-color' palette='density_light_multicolor' type='interpolated' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t4ad761439jp41g8srtu1nsu5ag].[Latitude (generated)]</rows>
+        <cols>[federated.1t4ad761439jp41g8srtu1nsu5ag].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{1EE22813-E042-4F8A-AC91-582E7DBAA50D}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_data' name='federated.1t4ad761439jp41g8srtu1nsu5ag' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t4ad761439jp41g8srtu1nsu5ag'>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1t4ad761439jp41g8srtu1nsu5ag].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{2800F201-83E5-40D1-A780-990F8FCEDDCC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{77721724-B321-4277-8887-1C874D3A1421}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{38D9EEC7-4FDC-4674-BC56-F99B87D9C44D}' />
+    </window>
+  </windows>
+</workbook>

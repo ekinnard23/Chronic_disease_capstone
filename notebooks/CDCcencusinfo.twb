@@ -1,0 +1,1034 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CDC_Places_Data_by_Census_Tract' inline='true' name='federated.1no2jm11wmuqhk14gkdz40xz0pes' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CDC_Places_Data_by_Census_Tract' name='textscan.1k65dyx1876kze12dyneq1tcpg8u'>
+            <connection class='textscan' directory='C:/Users/eykin/Desktop/Eddie Documentsls/projects/Chronic_disease_capstone/data' filename='CDC_Places_Data_by_Census_Tract.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1k65dyx1876kze12dyneq1tcpg8u' name='CDC_Places_Data_by_Census_Tract.csv' table='[CDC_Places_Data_by_Census_Tract#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='CENSUS TRACT' ordinal='0' />
+            <column datatype='integer' name='2010 POPULATION' ordinal='1' />
+            <column datatype='real' name='LACKING HEALTH INSURANCE' ordinal='2' />
+            <column datatype='integer' name='ARTHRITIS' ordinal='3' />
+            <column datatype='real' name='BINGE DRINKING' ordinal='4' />
+            <column datatype='real' name='HIGH BLOOD PRESSURE' ordinal='5' />
+            <column datatype='real' name='BLOOD PRESSURE MEDICINE' ordinal='6' />
+            <column datatype='real' name='CANCER (EXCLUDING SKIN CANCER)' ordinal='7' />
+            <column datatype='real' name='ASTHMA' ordinal='8' />
+            <column datatype='real' name='CERVICAL CANCER SCREENING' ordinal='9' />
+            <column datatype='real' name='CORONARY HEART DISEASE' ordinal='10' />
+            <column datatype='real' name='ROUTINE CHECKUP' ordinal='11' />
+            <column datatype='real' name='CHOLESTEROL SCREENING' ordinal='12' />
+            <column datatype='real' name='COLON SCREENING' ordinal='13' />
+            <column datatype='real' name='COPD' ordinal='14' />
+            <column datatype='real' name='MEN CORE PREVENTATIVE SERVICES' ordinal='15' />
+            <column datatype='real' name='WOMEN CORE PREVENTATIVE SERVICES' ordinal='16' />
+            <column datatype='real' name='CURRENT SMOKER' ordinal='17' />
+            <column datatype='real' name='DENTAL VISIT' ordinal='18' />
+            <column datatype='real' name='DEPRESSION' ordinal='19' />
+            <column datatype='real' name='DIABETES' ordinal='20' />
+            <column datatype='real' name='GENERAL HEALTH' ordinal='21' />
+            <column datatype='real' name='HIGH CHOLESTEROL' ordinal='22' />
+            <column datatype='real' name='CHRONIC KIDNEY DISEASE' ordinal='23' />
+            <column datatype='real' name='NO LEISURE-TIME PHYSICAL ACTIVITY' ordinal='24' />
+            <column datatype='real' name='MAMMOGRAPHY USE FOR OLDER WOMEN' ordinal='25' />
+            <column datatype='real' name='POOR MENTAL HEALTH' ordinal='26' />
+            <column datatype='real' name='OBESITY' ordinal='27' />
+            <column datatype='real' name='POOR PHYSICAL HEALTH' ordinal='28' />
+            <column datatype='real' name='LESS THAN 7 HOURS SLEEP' ordinal='29' />
+            <column datatype='real' name='STROKE' ordinal='30' />
+            <column datatype='real' name='SENIORS WITH ALL TEETH LOST' ordinal='31' />
+            <column datatype='string' name='GEOLOCATION' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1k65dyx1876kze12dyneq1tcpg8u' name='CDC_Places_Data_by_Census_Tract.csv' table='[CDC_Places_Data_by_Census_Tract#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='CENSUS TRACT' ordinal='0' />
+            <column datatype='integer' name='2010 POPULATION' ordinal='1' />
+            <column datatype='real' name='LACKING HEALTH INSURANCE' ordinal='2' />
+            <column datatype='integer' name='ARTHRITIS' ordinal='3' />
+            <column datatype='real' name='BINGE DRINKING' ordinal='4' />
+            <column datatype='real' name='HIGH BLOOD PRESSURE' ordinal='5' />
+            <column datatype='real' name='BLOOD PRESSURE MEDICINE' ordinal='6' />
+            <column datatype='real' name='CANCER (EXCLUDING SKIN CANCER)' ordinal='7' />
+            <column datatype='real' name='ASTHMA' ordinal='8' />
+            <column datatype='real' name='CERVICAL CANCER SCREENING' ordinal='9' />
+            <column datatype='real' name='CORONARY HEART DISEASE' ordinal='10' />
+            <column datatype='real' name='ROUTINE CHECKUP' ordinal='11' />
+            <column datatype='real' name='CHOLESTEROL SCREENING' ordinal='12' />
+            <column datatype='real' name='COLON SCREENING' ordinal='13' />
+            <column datatype='real' name='COPD' ordinal='14' />
+            <column datatype='real' name='MEN CORE PREVENTATIVE SERVICES' ordinal='15' />
+            <column datatype='real' name='WOMEN CORE PREVENTATIVE SERVICES' ordinal='16' />
+            <column datatype='real' name='CURRENT SMOKER' ordinal='17' />
+            <column datatype='real' name='DENTAL VISIT' ordinal='18' />
+            <column datatype='real' name='DEPRESSION' ordinal='19' />
+            <column datatype='real' name='DIABETES' ordinal='20' />
+            <column datatype='real' name='GENERAL HEALTH' ordinal='21' />
+            <column datatype='real' name='HIGH CHOLESTEROL' ordinal='22' />
+            <column datatype='real' name='CHRONIC KIDNEY DISEASE' ordinal='23' />
+            <column datatype='real' name='NO LEISURE-TIME PHYSICAL ACTIVITY' ordinal='24' />
+            <column datatype='real' name='MAMMOGRAPHY USE FOR OLDER WOMEN' ordinal='25' />
+            <column datatype='real' name='POOR MENTAL HEALTH' ordinal='26' />
+            <column datatype='real' name='OBESITY' ordinal='27' />
+            <column datatype='real' name='POOR PHYSICAL HEALTH' ordinal='28' />
+            <column datatype='real' name='LESS THAN 7 HOURS SLEEP' ordinal='29' />
+            <column datatype='real' name='STROKE' ordinal='30' />
+            <column datatype='real' name='SENIORS WITH ALL TEETH LOST' ordinal='31' />
+            <column datatype='string' name='GEOLOCATION' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CENSUS TRACT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CENSUS TRACT]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CENSUS TRACT</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010 POPULATION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2010 POPULATION]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>2010 POPULATION</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LACKING HEALTH INSURANCE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LACKING HEALTH INSURANCE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>LACKING HEALTH INSURANCE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARTHRITIS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ARTHRITIS]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>ARTHRITIS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BINGE DRINKING</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BINGE DRINKING]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>BINGE DRINKING</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIGH BLOOD PRESSURE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HIGH BLOOD PRESSURE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>HIGH BLOOD PRESSURE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLOOD PRESSURE MEDICINE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BLOOD PRESSURE MEDICINE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>BLOOD PRESSURE MEDICINE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CANCER (EXCLUDING SKIN CANCER)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CANCER (EXCLUDING SKIN CANCER)]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CANCER (EXCLUDING SKIN CANCER)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASTHMA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ASTHMA]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>ASTHMA</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CERVICAL CANCER SCREENING</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CERVICAL CANCER SCREENING]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CERVICAL CANCER SCREENING</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CORONARY HEART DISEASE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CORONARY HEART DISEASE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CORONARY HEART DISEASE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROUTINE CHECKUP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROUTINE CHECKUP]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>ROUTINE CHECKUP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CHOLESTEROL SCREENING</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CHOLESTEROL SCREENING]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CHOLESTEROL SCREENING</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COLON SCREENING</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COLON SCREENING]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>COLON SCREENING</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COPD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COPD]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>COPD</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEN CORE PREVENTATIVE SERVICES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEN CORE PREVENTATIVE SERVICES]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>MEN CORE PREVENTATIVE SERVICES</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WOMEN CORE PREVENTATIVE SERVICES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WOMEN CORE PREVENTATIVE SERVICES]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>WOMEN CORE PREVENTATIVE SERVICES</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CURRENT SMOKER</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CURRENT SMOKER]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CURRENT SMOKER</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DENTAL VISIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DENTAL VISIT]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>DENTAL VISIT</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEPRESSION</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DEPRESSION]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>DEPRESSION</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DIABETES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DIABETES]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>DIABETES</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENERAL HEALTH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GENERAL HEALTH]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>GENERAL HEALTH</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIGH CHOLESTEROL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HIGH CHOLESTEROL]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>HIGH CHOLESTEROL</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CHRONIC KIDNEY DISEASE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CHRONIC KIDNEY DISEASE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>CHRONIC KIDNEY DISEASE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO LEISURE-TIME PHYSICAL ACTIVITY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NO LEISURE-TIME PHYSICAL ACTIVITY]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>NO LEISURE-TIME PHYSICAL ACTIVITY</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAMMOGRAPHY USE FOR OLDER WOMEN</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MAMMOGRAPHY USE FOR OLDER WOMEN]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>MAMMOGRAPHY USE FOR OLDER WOMEN</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POOR MENTAL HEALTH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[POOR MENTAL HEALTH]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>POOR MENTAL HEALTH</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBESITY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OBESITY]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>OBESITY</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POOR PHYSICAL HEALTH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[POOR PHYSICAL HEALTH]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>POOR PHYSICAL HEALTH</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LESS THAN 7 HOURS SLEEP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LESS THAN 7 HOURS SLEEP]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>LESS THAN 7 HOURS SLEEP</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STROKE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STROKE]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>STROKE</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SENIORS WITH ALL TEETH LOST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SENIORS WITH ALL TEETH LOST]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>SENIORS WITH ALL TEETH LOST</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEOLOCATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEOLOCATION]</local-name>
+            <parent-name>[CDC_Places_Data_by_Census_Tract.csv]</parent-name>
+            <remote-alias>GEOLOCATION</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='2010 Population' datatype='integer' name='[2010 POPULATION]' role='measure' type='quantitative' />
+      <column caption='Arthritis' datatype='integer' name='[ARTHRITIS]' role='measure' type='quantitative' />
+      <column caption='Asthma' datatype='real' name='[ASTHMA]' role='measure' type='quantitative' />
+      <column caption='Binge Drinking' datatype='real' name='[BINGE DRINKING]' role='measure' type='quantitative' />
+      <column caption='Blood Pressure Medicine' datatype='real' name='[BLOOD PRESSURE MEDICINE]' role='measure' type='quantitative' />
+      <column caption='Cancer (Excluding Skin Cancer)' datatype='real' name='[CANCER (EXCLUDING SKIN CANCER)]' role='measure' type='quantitative' />
+      <column caption='Census Tract' datatype='integer' name='[CENSUS TRACT]' role='measure' type='quantitative' />
+      <column caption='Cervical Cancer Screening' datatype='real' name='[CERVICAL CANCER SCREENING]' role='measure' type='quantitative' />
+      <column caption='Cholesterol Screening' datatype='real' name='[CHOLESTEROL SCREENING]' role='measure' type='quantitative' />
+      <column caption='Chronic Kidney Disease' datatype='real' name='[CHRONIC KIDNEY DISEASE]' role='measure' type='quantitative' />
+      <column caption='Colon Screening' datatype='real' name='[COLON SCREENING]' role='measure' type='quantitative' />
+      <column caption='Copd' datatype='real' name='[COPD]' role='measure' type='quantitative' />
+      <column caption='Coronary Heart Disease' datatype='real' name='[CORONARY HEART DISEASE]' role='measure' type='quantitative' />
+      <column caption='Current Smoker' datatype='real' name='[CURRENT SMOKER]' role='measure' type='quantitative' />
+      <column caption='Dental Visit' datatype='real' name='[DENTAL VISIT]' role='measure' type='quantitative' />
+      <column caption='Depression' datatype='real' name='[DEPRESSION]' role='measure' type='quantitative' />
+      <column caption='Diabetes' datatype='real' name='[DIABETES]' role='measure' type='quantitative' />
+      <column caption='Data Value Unit1' datatype='string' name='[DataValueUnit]' role='dimension' type='nominal' />
+      <column caption='General Health' datatype='real' name='[GENERAL HEALTH]' role='measure' type='quantitative' />
+      <column caption='Geolocation' datatype='string' name='[GEOLOCATION]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='High Blood Pressure' datatype='real' name='[HIGH BLOOD PRESSURE]' role='measure' type='quantitative' />
+      <column caption='High Cholesterol' datatype='real' name='[HIGH CHOLESTEROL]' role='measure' type='quantitative' />
+      <column caption='Lacking Health Insurance' datatype='real' name='[LACKING HEALTH INSURANCE]' role='measure' type='quantitative' />
+      <column caption='Less Than 7 Hours Sleep' datatype='real' name='[LESS THAN 7 HOURS SLEEP]' role='measure' type='quantitative' />
+      <column caption='Mammography Use For Older Women' datatype='real' name='[MAMMOGRAPHY USE FOR OLDER WOMEN]' role='measure' type='quantitative' />
+      <column caption='Men Core Preventative Services' datatype='real' name='[MEN CORE PREVENTATIVE SERVICES]' role='measure' type='quantitative' />
+      <column caption='No Leisure-Time Physical Activity' datatype='real' name='[NO LEISURE-TIME PHYSICAL ACTIVITY]' role='measure' type='quantitative' />
+      <column caption='Obesity' datatype='real' name='[OBESITY]' role='measure' type='quantitative' />
+      <column caption='Poor Mental Health' datatype='real' name='[POOR MENTAL HEALTH]' role='measure' type='quantitative' />
+      <column caption='Poor Physical Health' datatype='real' name='[POOR PHYSICAL HEALTH]' role='measure' type='quantitative' />
+      <column caption='Routine Checkup' datatype='real' name='[ROUTINE CHECKUP]' role='measure' type='quantitative' />
+      <column caption='Seniors With All Teeth Lost' datatype='real' name='[SENIORS WITH ALL TEETH LOST]' role='measure' type='quantitative' />
+      <column caption='Stroke' datatype='real' name='[STROKE]' role='measure' type='quantitative' />
+      <column caption='Women Core Preventative Services' datatype='real' name='[WOMEN CORE PREVENTATIVE SERVICES]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CDC_Places_Data_by_Census_Tract.csv' datatype='table' name='[__tableau_internal_object_id__].[CDC_Places_Data_by_Census_Tract.csv_EC72407C84CC4A258123DF082EB3F2F2]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Geolocation, Location Name'>
+          <field>[GEOLOCATION]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CDC_Places_Data_by_Census_Tract.csv' id='CDC_Places_Data_by_Census_Tract.csv_EC72407C84CC4A258123DF082EB3F2F2'>
+            <properties context=''>
+              <relation connection='textscan.1k65dyx1876kze12dyneq1tcpg8u' name='CDC_Places_Data_by_Census_Tract.csv' table='[CDC_Places_Data_by_Census_Tract#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='CENSUS TRACT' ordinal='0' />
+                  <column datatype='integer' name='2010 POPULATION' ordinal='1' />
+                  <column datatype='real' name='LACKING HEALTH INSURANCE' ordinal='2' />
+                  <column datatype='integer' name='ARTHRITIS' ordinal='3' />
+                  <column datatype='real' name='BINGE DRINKING' ordinal='4' />
+                  <column datatype='real' name='HIGH BLOOD PRESSURE' ordinal='5' />
+                  <column datatype='real' name='BLOOD PRESSURE MEDICINE' ordinal='6' />
+                  <column datatype='real' name='CANCER (EXCLUDING SKIN CANCER)' ordinal='7' />
+                  <column datatype='real' name='ASTHMA' ordinal='8' />
+                  <column datatype='real' name='CERVICAL CANCER SCREENING' ordinal='9' />
+                  <column datatype='real' name='CORONARY HEART DISEASE' ordinal='10' />
+                  <column datatype='real' name='ROUTINE CHECKUP' ordinal='11' />
+                  <column datatype='real' name='CHOLESTEROL SCREENING' ordinal='12' />
+                  <column datatype='real' name='COLON SCREENING' ordinal='13' />
+                  <column datatype='real' name='COPD' ordinal='14' />
+                  <column datatype='real' name='MEN CORE PREVENTATIVE SERVICES' ordinal='15' />
+                  <column datatype='real' name='WOMEN CORE PREVENTATIVE SERVICES' ordinal='16' />
+                  <column datatype='real' name='CURRENT SMOKER' ordinal='17' />
+                  <column datatype='real' name='DENTAL VISIT' ordinal='18' />
+                  <column datatype='real' name='DEPRESSION' ordinal='19' />
+                  <column datatype='real' name='DIABETES' ordinal='20' />
+                  <column datatype='real' name='GENERAL HEALTH' ordinal='21' />
+                  <column datatype='real' name='HIGH CHOLESTEROL' ordinal='22' />
+                  <column datatype='real' name='CHRONIC KIDNEY DISEASE' ordinal='23' />
+                  <column datatype='real' name='NO LEISURE-TIME PHYSICAL ACTIVITY' ordinal='24' />
+                  <column datatype='real' name='MAMMOGRAPHY USE FOR OLDER WOMEN' ordinal='25' />
+                  <column datatype='real' name='POOR MENTAL HEALTH' ordinal='26' />
+                  <column datatype='real' name='OBESITY' ordinal='27' />
+                  <column datatype='real' name='POOR PHYSICAL HEALTH' ordinal='28' />
+                  <column datatype='real' name='LESS THAN 7 HOURS SLEEP' ordinal='29' />
+                  <column datatype='real' name='STROKE' ordinal='30' />
+                  <column datatype='real' name='SENIORS WITH ALL TEETH LOST' ordinal='31' />
+                  <column datatype='string' name='GEOLOCATION' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CDC_Places_Data_by_Census_Tract' name='federated.1no2jm11wmuqhk14gkdz40xz0pes' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1no2jm11wmuqhk14gkdz40xz0pes'>
+            <column caption='Census Tract' datatype='integer' name='[CENSUS TRACT]' role='measure' type='quantitative' />
+            <column-instance column='[CENSUS TRACT]' derivation='Sum' name='[sum:CENSUS TRACT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1no2jm11wmuqhk14gkdz40xz0pes].[Longitude (generated)]' field-type='quantitative' max='-5489666.6077815834' min='-15099284.397157907' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1no2jm11wmuqhk14gkdz40xz0pes].[Latitude (generated)]' field-type='quantitative' max='6712379.8414045582' min='2146005.1937635941' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <lod column='[federated.1no2jm11wmuqhk14gkdz40xz0pes].[sum:CENSUS TRACT:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[Latitude (generated)]</rows>
+        <cols>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9421ADD0-DE7A-4402-8440-2D3956C0007C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CDC_Places_Data_by_Census_Tract' name='federated.1no2jm11wmuqhk14gkdz40xz0pes' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1no2jm11wmuqhk14gkdz40xz0pes'>
+            <column caption='Census Tract' datatype='integer' name='[CENSUS TRACT]' role='measure' type='quantitative' />
+            <column-instance column='[CENSUS TRACT]' derivation='Sum' name='[sum:CENSUS TRACT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[sum:CENSUS TRACT:qk]</cols>
+      </table>
+      <simple-id uuid='{749D2F71-9322-4FF2-B47E-60A61F41DD94}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:DataValueType:nk]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:DataValueUnit:nk]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:LocationName:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C1AB3002-0A08-4257-AFDF-B2D19F67EE13}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[:Measure Names]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[Multiple Values]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:DataValueType:nk]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:DataValueTypeID (pulmonarywithinstance.csv):nk]</field>
+            <field>[federated.1no2jm11wmuqhk14gkdz40xz0pes].[none:DataValueUnit:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9FB0B805-15B5-4136-BEDF-D40AC72A1D3E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AVQYvFwOAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='95' name='Sheet 2' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
