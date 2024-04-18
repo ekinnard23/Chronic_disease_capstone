@@ -598,8 +598,8 @@
             </groupfilter>
           </filter>
           <filter class='quantitative' column='[federated.1t06z400dr5lh91h24v8g0b2kyag].[none:YearStart:qk]' included-values='in-range'>
-            <min>2019</min>
-            <max>2019</max>
+            <min>2010</min>
+            <max>2021</max>
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.1t06z400dr5lh91h24v8g0b2kyag].[none:Topic:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1t06z400dr5lh91h24v8g0b2kyag].[sum:DataValue:qk]' shelf='rows' />
@@ -612,7 +612,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.1t06z400dr5lh91h24v8g0b2kyag].[sum:patient_count:qk]' scope='cols' value='CD Inpatient Hospitalizations 2017' />
+            <format attr='title' class='0' field='[federated.1t06z400dr5lh91h24v8g0b2kyag].[sum:patient_count:qk]' scope='cols' value='CD Inpatient Hospitalizations 2020' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='width' value='169' />
