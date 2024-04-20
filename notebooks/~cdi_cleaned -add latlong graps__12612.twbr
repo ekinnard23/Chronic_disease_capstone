@@ -612,7 +612,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.1t06z400dr5lh91h24v8g0b2kyag].[sum:patient_count:qk]' scope='cols' value='CD Inpatient Hospitalizations 2020' />
+            <format attr='title' class='0' field='[federated.1t06z400dr5lh91h24v8g0b2kyag].[sum:patient_count:qk]' scope='cols' value='CD Inpatient Hospitalizations 2010-2021' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='width' value='169' />
